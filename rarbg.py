@@ -7,7 +7,6 @@ import os
 
 
 class SeleniumCrawler(object):
-
     def __init__(self):
         if system() == "Windows":
             self.browser = webdriver.Chrome(

@@ -31,3 +31,4 @@ def get_list():
 for item in get_list():
     magnets = get_magnet_links(item)
     for m in magnets:
+        print(m)
